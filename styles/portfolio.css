@@ -13,20 +13,20 @@
     color: #FFFFFF;
     border: 0;
     height: 64px;
-    width: 150px;
+    width: 160px;
     border-radius: 5px;
     background: #FD6E0A;
 }
 .contact{
-    width: 158px;
+    width: 160px;
     height: 64px;
     border-radius: 5px;
     background: #FFFFFF;
     color: #FD6E0A;
     font-weight: 700;
     font-size: 20px;
-    margin-left: 30px;
-
+    margin-left: 35px;
+    border-color: #FD6E0A;
 
 }
 
@@ -35,6 +35,7 @@
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    
 }
 
 
