@@ -17,6 +17,18 @@
     border-radius: 5px;
     background: #FD6E0A;
 }
+.contact{
+    width: 158px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 30px;
+
+
+}
 
 .header {
     background: #FFF8F3;
