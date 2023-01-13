@@ -17,7 +17,8 @@
     border-radius: 5px;
     background: #FD6E0A;
 }
-.contact{
+
+.contact {
     width: 160px;
     height: 64px;
     border-radius: 5px;
@@ -35,7 +36,7 @@
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    
+
 }
 
 
@@ -105,28 +106,64 @@ main {
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px;
+    text-align: center;
 }
 
 .section-description {
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
+    text-align: center;
+
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about .info-title{
+
+.about .info-title {
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
 }
-/* what i do styles */
-.what-i-do{
-    margin-top: 130px;
 
+/* what i do styles */
+.what-i-do {
+    margin-top: 130px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-sec-description{
+    
+    font-size: 18px;
+    color: #757575;
+    text-align: center; 
+    margin-bottom: 70px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
 }
