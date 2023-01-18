@@ -111,6 +111,7 @@ main {
     font-weight: 700;
     font-size: 35px;
     text-align: center;
+    color: #181818;
 }
 
 .section-description {
@@ -200,4 +201,33 @@ main {
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+
+/* contact styles */
+.contact-section{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact-section .section-title{
+    text-align: left;
+}
+.contact-section input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.contact-section a{
+    text-decoration: none;
+    margin-right: 24px;
 }
