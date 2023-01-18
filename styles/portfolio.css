@@ -206,7 +206,7 @@ main {
 /* contact styles */
 .contact-section{
     display: flex;
-    gap: 100px;
+    gap: 120px;
     background: #FFF8F3;
     padding: 130px 200px;
 }
